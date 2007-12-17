@@ -12,7 +12,6 @@ Source0: %{oname}-%version.tar.bz2
 License: GPL
 Group: Development/Python
 URL: http://cddb-py.sourceforge.net
-BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: libpython-devel >= %pyversion
 Requires: python
 
