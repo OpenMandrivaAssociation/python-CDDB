@@ -2,7 +2,7 @@
 %define version 1.4
 %define pyversion 2.4
 %define pysystemver 2.4
-%define release %mkrel 8
+%define release %mkrel 9
 
 Summary: Python CDDB module
 Name: python-%{oname}
