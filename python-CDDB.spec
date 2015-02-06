@@ -5,7 +5,7 @@
 Summary: Python CDDB module
 Name: python-%{oname}
 Version: 1.4
-Release: 14
+Release: 15
 Source0: %{oname}-%version.tar.bz2
 License: GPL
 Group: Development/Python
