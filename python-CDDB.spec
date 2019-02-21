@@ -5,13 +5,13 @@
 Summary: Python CDDB module
 Name: python-%{oname}
 Version: 1.4
-Release: 15
+Release: 16
 Source0: %{oname}-%version.tar.bz2
 License: GPL
 Group: Development/Python
 URL: http://cddb-py.sourceforge.net
-BuildRequires: python-devel
-Requires: python
+BuildRequires: python2-devel
+Requires: python2
 
 %description
 The dynamic duo of CDDB.py and DiscID.py, along with their side-kick C
@@ -25,14 +25,14 @@ audio CDs.  UNIX platforms and Windows are both supported.
 %setup -q -n %oname-%version
 
 %build
-python setup.py build
+python2 setup.py build
 
 %install
-python setup.py install --root %buildroot
+python2 setup.py install --root %buildroot
 
 %files
 %doc CHANGES COPYING README
-%py_platsitedir/*
+%py2_platsitedir/*
 
 
 
