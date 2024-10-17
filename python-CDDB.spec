@@ -9,7 +9,7 @@ Release: 16
 Source0: %{oname}-%version.tar.bz2
 License: GPL
 Group: Development/Python
-URL: http://cddb-py.sourceforge.net
+URL: https://cddb-py.sourceforge.net
 BuildRequires: python2-devel
 Requires: python2
 
